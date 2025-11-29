@@ -31,8 +31,7 @@ rl_control_KFcustom_losposconv_V4multi.py
 
 ## 1. Data Processing
 ### 1）Step 1: Process the raw GNSS measurement data in the dataset
-Run [carrier-smoothing-robust-wls-kalman-smoother_single.py](./carrier-smoothing-robust-wls-kalman-smoother_single.py), and then solved files will be 
-generated in the corrsponding file folders, such as the position and velocity results by WLS and KF.
+Download data in https://www.kaggle.com/competitions/smartphone-decimeter-2023. And then run [carrier-smoothing-robust-wls-kalman-smoother_single.py](./carrier-smoothing-robust-wls-kalman-smoother_single.py), and then solved files will be generated in the corrsponding file folders, such as the position and velocity results by WLS and KF.
 
 ### 2) Step 2: Generate GNSS feature data
 Run [env_processing_multic_CN0ele_mutipath.py](./envRLKF/env_processing_multic_CN0ele_mutipath.py) to generate the processed GNSS feature data.
